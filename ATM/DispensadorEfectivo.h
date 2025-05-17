@@ -1,0 +1,21 @@
+// DispensadorEfectivo.h
+// Definición de la clase DispensadorEfectivo. Representa el dispensador de efectivo del ATM.
+#ifndef DISPENSADOR_EFECTIVO_H
+ #define DISPENSADOR_EFECTIVO_H
+
+class DispensadorEfectivo
+{
+public:
+	DispensadorEfectivo(); // el constructor inicializa la cuenta de billetes con 500
+	
+		// simula el proceso de dispensar el monto especificado de efectivo
+		void dispensarEfectivo(int);
+	
+		// indica si el dispensador de efectivo puede dispensar el monto deseado
+		bool haySuficienteEfectivoDisponible(int) const;
+private:
+	const static int CUENTA_INICIAL = 500;
+	 int cuenta; // número de billetes de $20 restantes
+}; // fin de la clase DispensadorEfectivo
+
+#endif // DISPENSADOR_EFECTIVO_H

@@ -1,0 +1,6 @@
+﻿  Teclado.cpp
+C:\Users\luisz\Desktop\POO_D03\ATM (main)\Teclado.cpp(35,37): error C2039: "stoi": no es un miembro de "std"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\iostream(19,1):
+      vea la declaración de 'std'
+  
+C:\Users\luisz\Desktop\POO_D03\ATM (main)\Teclado.cpp(35,37): error C3861: 'stoi': no se encontró el identificador
