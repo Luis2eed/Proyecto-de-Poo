@@ -1,7 +1,9 @@
 // Teclado.cpp
 #include <iostream>
+#include <string>
 #include <conio.h>  // Solo para _getch() en Windows
 #include "Teclado.h"
+using namespace std;
 
 int Teclado::obtenerEntrada() const 
 {
